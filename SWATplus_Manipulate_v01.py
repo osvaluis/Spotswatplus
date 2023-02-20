@@ -89,6 +89,9 @@ class InputFileManipulator(object):
                
             
 class calManipulator(InputFileManipulator):
+    # Comment from Carla:
+    # {"name": ("Line in File", "first column", "last column", "decimal digits") 
+    # TODO: Instead of hardcoding the positions, the position in the file should be searched automatically using the parameter name
     parInfo = {"number":     (2,  1,  5,0), #I NEED TO VERIFY THIS NUMBERS WITH CARLA
                "cal_parm":   (4,  1, 23,0),
                "chg_typ":    (4, 24, 30,0),
