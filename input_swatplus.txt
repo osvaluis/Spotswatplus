@@ -1,0 +1,14 @@
+lat_len,-8,8
+cn_b,-0.15,0.15
+k,0.01,200
+awc,-0.5,0.1
+alpha_bf,0.01,0.99
+rchg_dp,0.1,1
+revap,0.02,0.2
+revap_min,0.0,10.0
+flo_min,0.0,10.0
+bf_max,0,2
+can_max,1,100
+esco,0.1,1
+epco,0.1,1
+perco,0.5,1
